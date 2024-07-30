@@ -611,6 +611,10 @@ nav ul li a {
   .arrow_right {
     display: none;
   }
+
+  .logo {
+    margin-left: 3rem;
+  }
 }
 
 /* RESET */
