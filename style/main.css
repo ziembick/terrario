@@ -20,7 +20,6 @@ body {
 header {
   background-color: #fff;
   margin: 0 2.5rem;
-
 }
 
 .header_container {
@@ -56,6 +55,10 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero_text {
+  margin-left: 4rem;
 }
 
 .hero_text h2 {
@@ -121,21 +124,23 @@ nav ul li a {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: lighter;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .jardim_container h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
 }
 
 .jardim_container p {
   font-size: 1.3rem;
   line-height: 1.2;
   margin-bottom: 1rem;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
 }
 
 .mini_jardim_img {
