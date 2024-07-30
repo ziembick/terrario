@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0 auto !important;
   box-sizing: border-box;
-  max-width: 1300px;
+  max-width: 1366px;
 }
 
 header {
@@ -55,20 +55,21 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .hero_text {
-  margin-left: 4rem;
+  margin-left: 2rem;
 }
 
 .hero_text h2 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .hero_text h1 {
-  font-size: 4.2rem;
+  font-size: 5.2rem;
   margin-bottom: 1rem;
   font-weight: 100;
   font-style: normal;
@@ -76,8 +77,9 @@ nav ul li a {
 }
 
 .hero_text p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-bottom: 1.2rem;
+  font-weight: bold;
   font-family: "Cormorant Infant", serif;
 }
 
@@ -88,8 +90,13 @@ nav ul li a {
 .btn-terr {
   border-radius: 25px;
   background-color: #86a136;
-  padding: 12px 20px;
+  padding: 17px 20px;
   border: none;
+  cursor: pointer;
+}
+
+.btn-terr:hover {
+  background-color: #bce249;
 }
 
 .btn-terr a {
@@ -101,13 +108,15 @@ nav ul li a {
   text-align: center;
 }
 
+
 .jardim {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #457251;
   padding: 2rem;
-  height: 45vh;
+  padding-bottom: 5rem;
+  height: 35vh;
 }
 
 .jardim_container {
@@ -115,28 +124,30 @@ nav ul li a {
   flex-direction: column;
   align-items: flex-start;
   color: white;
-  padding-right: 5rem;
-  padding-left: 5rem;
-  font-weight: lighter;
+  padding: 5rem;
+  padding-bottom: 5rem;
+  max-width: 45%;
 }
 
 .jardim_container h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: lighter;
   font-family: "Montserrat", sans-serif;
+  padding-top: 5rem;
 }
 
 .jardim_container h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   margin-bottom: 1rem;
   font-weight: bold;
   font-family: "Zilla Slab", serif;
   font-weight: 300;
+  
 }
 
 .jardim_container p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
   font-family: "Cormorant Infant", serif;
@@ -145,26 +156,10 @@ nav ul li a {
 
 .mini_jardim_img {
   position: relative;
-  top: 40px;
-  height: 120%;
-}
-
-.btn-terr2 {
-  border-radius: 25px;
-  background-color: #86a136;
-  padding: 12px 20px;
-  border: none;
-  max-width: 50%;
-  border: none;
-}
-
-.btn-terr2 a {
-  text-decoration: none;
-  list-style: none;
-  font-size: 1rem;
-  color: white;
-  font-family: "Noto Serif JP", serif;
-  text-align: center;
+  top: 100px;
+  width: auto;
+  height: 150%;
+  margin-right: 4rem;
 }
 
 .mini_jardin_img {
@@ -186,16 +181,17 @@ nav ul li a {
 
 .passos_container h2 {
   font-size: 1.8rem;
-  font-family: "Poppins", sans-serif;
-  font-family: "Noto Serif JP", serif;
-  font-weight: 200;
+  font-family: "Zilla Slab", serif;
+  font-weight: 100;
   padding-bottom: 0.3rem;
 }
 
 .passos_container p {
   font-size: 1.1rem;
-  font-family: "Noto Serif JP", serif;
-  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  
+  line-height: 1.2;
 }
 
 .passos_each {
@@ -204,7 +200,9 @@ nav ul li a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 4rem;
+  margin: 3.5rem 1rem 2rem;
+  max-width: 20%;
+  line-height: 1.1;
 }
 
 .passos_each img {
@@ -218,7 +216,6 @@ nav ul li a {
 .btn_class {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
@@ -231,11 +228,6 @@ nav ul li a {
   max-height: 40vh;
 }
 
-.ter_sec {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .ter_main {
   display: flex;
