@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 5rem;
 }
 
@@ -63,9 +63,6 @@ nav ul li a {
   margin-bottom: 2rem;
 }
 
-.hero_text {
-  margin-left: 2rem;
-}
 
 .hero_text h2 {
   font-size: 1.3rem;
@@ -322,6 +319,19 @@ nav ul li a {
   margin-top: 25rem;
 }
 
+
+.agradecimentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.agradecimentos p {
+  padding: 0.3rem;
+}
+
 @media (max-width: 850px) {
 
   .header_nav {
@@ -335,6 +345,7 @@ nav ul li a {
     justify-content: center;
     text-align: center;
   }
+
 
   .hero_text h1 {
     font-size: 3rem;
@@ -368,8 +379,8 @@ nav ul li a {
     top: 0;
     right: 0;
     left: 0;
-    width: auto;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     margin-right: 0;
     padding-bottom: 1rem;
   }
@@ -384,7 +395,7 @@ nav ul li a {
   }
 
   .jardim_container h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   
@@ -563,11 +574,6 @@ nav ul li a {
   top: 50%;
   transform: translate(-50%, 50%) rotate(-45deg);
 }
-
-
-
-
-
 
 
 }
