@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0 auto !important;
   box-sizing: border-box;
-  max-width: 1366px;
+  max-width: 1400px;
 }
 
 header {
@@ -49,8 +49,6 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .hero_container {
@@ -120,7 +118,6 @@ nav ul li a {
   padding-bottom: 5rem;
   height: 35vh;
 }
-
 
 .jardim_container {
   display: flex;
@@ -271,7 +268,6 @@ nav ul li a {
   text-align: left;
 }
 
-
 .ter_main2 p {
   margin: 0 3rem;
 }
@@ -295,7 +291,8 @@ nav ul li a {
   margin: 0.5rem 3rem;
 }
 
-.ter_main img, .ter_main3 img {
+.ter_main img,
+.ter_main3 img {
   width: 80%;
   height: 400px;
   padding: 0;
@@ -318,15 +315,153 @@ nav ul li a {
   margin-top: 25rem;
 }
 
-
-@media (min-width: 400px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .hero_container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
+  .hero_text h1 {
+    font-size: 3rem;
+  }
+
+  .hero_text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero_text p {
+    font-size: 1.2rem;
+  }
+
+  .hero_image {
+    margin-left: 5rem;
+  }
+
+  .jardim {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mini_jardim_img {
+    position: relative;
+    top: 0;
+    width: auto;
+    height: 100%;
+    margin-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .jardim_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .passos_sec {
+    margin: 1rem;
+  }
+
+  .passos_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-justify: center;
+  }
+
+  .passos_each {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+    max-width: 100%;
+    line-height: 1.1;
+  }
+
+  .ter_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    max-height: 100%;
+  }
+
+  .ter_main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    top: 0;
+  }
+
+  .ter_main h2,
+  .ter_main p,
+  .ter_main2 h2,
+  .ter_main2 p,
+  .ter_main3 h2,
+  .ter_main3 p {
+    width: 60%;
+  }
+
+  .ter_main2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    top: 0;
+  }
+
+  .ter_main3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    top: 0;
+  }
+
+  .ter_main img,
+  .ter_main3 img {
+    width: 60%;
+    height: 400px;
+    padding: 0;
+  }
+
+  .ter_main2 img {
+    width: 60%;
+    height: 450px;
+    padding: 0;
+  }
+
+  .hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
 }
 
 /* RESET */
