@@ -62,6 +62,12 @@ nav ul li a {
   align-items: center;
   margin-bottom: 2rem;
 }
+.hero_container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 
 
 .hero_text h2 {
@@ -80,6 +86,27 @@ nav ul li a {
 }
 
 .hero_text p {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+  font-family: "Cormorant Infant", serif;
+}
+.hero_text2 h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero_text2 h1 {
+  font-size: 5.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Zilla Slab", serif;
+}
+
+.hero_text2 p {
   font-size: 2rem;
   margin-bottom: 1.2rem;
   font-weight: bold;
@@ -319,6 +346,9 @@ nav ul li a {
   margin-top: 25rem;
 }
 
+.arrow_left {
+  transform: rotate(180deg);
+}
 
 .agradecimentos {
   display: flex;
@@ -345,6 +375,12 @@ nav ul li a {
     justify-content: center;
     text-align: center;
   }
+  .hero_container2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 
   .hero_text h1 {
@@ -357,6 +393,17 @@ nav ul li a {
 
   .hero_text p {
     font-size: 1.2rem;
+  }
+  .hero_text2 h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero_text2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero_text2 p {
+    font-size: 1rem;
   }
 
   .hero_image {
@@ -455,8 +502,9 @@ nav ul li a {
   .ter_main2 p,
   .ter_main3 h2,
   .ter_main3 p {
-    width: 60%;
+    width: 90%;
   }
+
 
   .ter_main2 {
     display: flex;
@@ -575,6 +623,10 @@ nav ul li a {
   transform: translate(-50%, 50%) rotate(-45deg);
 }
 
+
+.arrow_left, .arrow_right {
+  display: none;
+}
 
 }
 
